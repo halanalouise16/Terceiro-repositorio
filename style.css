@@ -54,6 +54,9 @@ body {
     outline: none;
 }
 
+.ativo {
+    background-color: var(--botao-ativo);
+}
 .conteudo {
     max-width: 1200px;
     margin: 0 auto;
