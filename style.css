@@ -69,6 +69,17 @@ body {
     padding: 24px;
 }
 
+.aba-conteudo-titulo-principal
+font-size: 28px;
+text-align: center;
+}
+
+.aba-conteudo-titulo-secundario {
+    text-aling:center;
+    color:var(--verde);
+    text-tranform:uppercase;
+}
+
 .parametro-titulo {
     font-family: var(--roboto-mono);
     font-size: 28px;
