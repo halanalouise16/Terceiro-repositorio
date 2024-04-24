@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
     --branco: white;
@@ -50,17 +50,10 @@ body {
     width: 70%;
 }
 
-.botao:first-child{
-    border-radius: 40px 40px 0 0;
+#campo-senha:focus {
+    outline: none;
 }
 
-.botao{
-
-}
-
-.ativo {
-    background-color: var(--botao-ativo);
-}
 .conteudo {
     max-width: 1200px;
     margin: 0 auto;
@@ -71,17 +64,6 @@ body {
     border: 2px solid var(--borda);
     margin-top: 32px;
     padding: 24px;
-}
-
-.aba-conteudo-titulo-principal
-font-size: 28px;
-text-align: center;
-}
-
-.aba-conteudo-titulo-secundario {
-    text-aling:center;
-    color:var(--verde);
-    text-tranform:uppercase;
 }
 
 .parametro-titulo {
@@ -101,7 +83,7 @@ text-align: center;
 
 .parametro-senha {
     width: 50%;
-    margin: 0 auto;+++
+    margin: 0 auto;
 }
 
 .parametro-senha-botoes {
